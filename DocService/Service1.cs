@@ -119,7 +119,7 @@ namespace DocService
                                      if (text.Contains("FATTURA").Equals(true))
                                      {
                                          insertDocument(e, properties);
-                                     } 
+                                     }  
                 }
             }
 
