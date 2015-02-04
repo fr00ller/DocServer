@@ -126,6 +126,7 @@ namespace DocService
             catch (Exception et)
             {
                 Trace.TraceError(et.ToString());
+                Trace.TraceError(et.ToString());
                 Console.WriteLine("Unexpected Error: " + et.Message);
                 Console.WriteLine("Details: ");
                 Console.WriteLine(et.ToString());
